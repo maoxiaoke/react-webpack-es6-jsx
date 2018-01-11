@@ -1,13 +1,11 @@
-import React from 'react';
+// @flow
+import * as React from 'react'
+/* type PropsType = {
+  name: string
+} */
 
-class Tab extends React.Component {
-    render(){
-        return (
-            <div style={{textAlign: 'center'}}>
-              <p>yuer <span style={{color:'red'}}>❤</span> xiaoke</p>
-              <p>xiaoke <span style={{color:'red'}}>❤</span> yuer</p>
-            </div>
-        )
-    }
+export default class Tab extends React.Component<> {
+  render () {
+    return (<p>hello</p>)
+  }
 }
-export default Tab;
